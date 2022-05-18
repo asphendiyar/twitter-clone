@@ -1,5 +1,11 @@
+import { SignIn } from "./pages/Auth/SignIn";
+
 function App() {
-  return <div>Twitter clone</div>;
+  return (
+    <>
+      <SignIn />
+    </>
+  );
 }
 
 export default App;
